@@ -4,7 +4,7 @@ import cv2
 import imutils
 import numpy as np
 import pytesseract
-from flask_reuploaded import UploadSet, configure_uploads, IMAGES
+from flask_uploads import UploadSet, configure_uploads, IMAGES
 try:
     from PIL import Image
 except:
